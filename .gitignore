@@ -162,4 +162,4 @@ cython_debug/
 # random_walker
 
 # 生成されたHTMLファイルは一旦対象外
-.html
+*.html

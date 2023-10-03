@@ -1,8 +1,8 @@
-from backtesting import Backtest, Strategy
+from backtesting import Strategy
 import pandas as pd
 import numpy as np
 
-def moving_average(x, y):
+def moving_average(x, n):
     return pd.Series(x).rolling(window=n).mean()
 
 def find_cross(short, long):
